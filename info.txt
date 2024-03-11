@@ -1,0 +1,7 @@
+stas:heslo
+peter:gamer
+patrik:qwerty
+filip:12345
+gamer:myPet
+gameDevUser:hello
+tukeSlave:savePassword
