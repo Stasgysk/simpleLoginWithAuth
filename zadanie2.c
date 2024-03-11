@@ -145,9 +145,7 @@ void rewriteFile(char* name, char* key, char* fileContent) {
                 strcat(outputString, ":");
                 strcat(outputString, pos + 2);
             }  else if(strstr(copiedLine, ",\r")){
-                printf("%s\n", copiedLine);
                 char *first = strtok(copiedLine, "\r");
-                printf("2 %s\n", first);
                 int len = strlen(first);
                 first[len] = '\0';
                 first[len - 1] = '\r';
